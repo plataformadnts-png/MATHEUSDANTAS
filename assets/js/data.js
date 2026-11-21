@@ -22,6 +22,8 @@ window.MX_PRODUCTS = [
   { id: "serum-b5-acido-hialuronico", cat: "dermocosmetica", name: "Sérum B5 Ácido Hialurônico", line: "Séruns faciais", img: "serum-b5-acido-hialuronico.webp", soft: true },
   { id: "serum-retinol-b3", cat: "dermocosmetica", name: "Sérum Retinol B3", line: "Séruns faciais", img: "serum-retinol-b3.webp", soft: true },
   { id: "essencia-iluminadora-niacinamida", cat: "dermocosmetica", name: "Essência Iluminadora de Niacinamida", line: "Linha holográfica", img: "essencia-niacinamida.webp", photo: true },
+  { id: "pads-renovadores", cat: "dermocosmetica", name: "Pads Renovadores Glicólico + Lático", line: "Com niacinamida e ácido hialurônico · 10 pads", img: "pads-renovadores.webp", photo: true, tag: "Novo" },
+  { id: "mascara-iluminadora-niacinamida", cat: "dermocosmetica", name: "Máscara Iluminadora de Niacinamida", line: "5 unidades de 25 ml", img: "mascara-niacinamida.webp", photo: true, tag: "Novo" },
   { id: "shampoo-ondulados", cat: "cabelos", name: "Shampoo Ondulados", line: "Linha capilar", img: "shampoo-ondulados.webp" },
   { id: "shampoo-cachos", cat: "cabelos", name: "Shampoo Cachos", line: "Linha capilar", img: "shampoo-cachos.webp" },
   { id: "shampoo-lisos", cat: "cabelos", name: "Shampoo Lisos", line: "Linha capilar", img: "shampoo-lisos.webp" },

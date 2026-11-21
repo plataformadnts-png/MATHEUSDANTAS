@@ -8,7 +8,8 @@ window.MX_CONFIG = {
 
 window.MX_CATEGORIES = [
   { id: "concentrados", name: "Concentrados", desc: "Frascos com acabamento prata e filetes dourados." },
-  { id: "dermocosmetica", name: "Dermocosmética", desc: "Séruns e essências para a rotina de cuidados." }
+  { id: "dermocosmetica", name: "Dermocosmética", desc: "Séruns e essências para a rotina de cuidados." },
+  { id: "cabelos", name: "Cabelos & corpo", desc: "Shampoos, condicionador e esfoliante." }
 ];
 
 window.MX_PRODUCTS = [
@@ -20,7 +21,13 @@ window.MX_PRODUCTS = [
   { id: "serum-vitamina-c10", cat: "dermocosmetica", name: "Sérum Vitamina C10", line: "Séruns faciais", img: "serum-vitamina-c10.webp", soft: true, tag: "Novo" },
   { id: "serum-b5-acido-hialuronico", cat: "dermocosmetica", name: "Sérum B5 Ácido Hialurônico", line: "Séruns faciais", img: "serum-b5-acido-hialuronico.webp", soft: true },
   { id: "serum-retinol-b3", cat: "dermocosmetica", name: "Sérum Retinol B3", line: "Séruns faciais", img: "serum-retinol-b3.webp", soft: true },
-  { id: "essencia-iluminadora-niacinamida", cat: "dermocosmetica", name: "Essência Iluminadora de Niacinamida", line: "Linha holográfica", img: "essencia-niacinamida.webp", photo: true }
+  { id: "essencia-iluminadora-niacinamida", cat: "dermocosmetica", name: "Essência Iluminadora de Niacinamida", line: "Linha holográfica", img: "essencia-niacinamida.webp", photo: true },
+  { id: "shampoo-ondulados", cat: "cabelos", name: "Shampoo Ondulados", line: "Linha capilar", img: "shampoo-ondulados.webp" },
+  { id: "shampoo-cachos", cat: "cabelos", name: "Shampoo Cachos", line: "Linha capilar", img: "shampoo-cachos.webp" },
+  { id: "shampoo-lisos", cat: "cabelos", name: "Shampoo Lisos", line: "Linha capilar", img: "shampoo-lisos.webp" },
+  { id: "shampoo-hidratante", cat: "cabelos", name: "Shampoo Hidratante", line: "Linha válvula dourada", img: "shampoo-hidratante.webp" },
+  { id: "condicionador-nutritivo", cat: "cabelos", name: "Condicionador Nutritivo", line: "Linha válvula dourada", img: "condicionador-nutritivo.webp" },
+  { id: "esfoliante-revitalizante", cat: "cabelos", name: "Esfoliante Revitalizante", line: "Linha válvula dourada", img: "esfoliante-revitalizante.webp" }
 ];
 
 /* Artigos do blog ligados a cada produto */

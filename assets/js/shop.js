@@ -168,3 +168,19 @@
   document.querySelectorAll('.rv').forEach(el => io ? io.observe(el) : el.classList.add('in'));
   render();
 })();
+
+/* Trilhos de produtos da home */
+(function () {
+  const rails = document.querySelectorAll('.rail');
+  if (!rails.length || !window.MX_PRODUCTS) return;
+  const cats = {}; (window.MX_CATEGORIES || []).forEach(c => cats[c.id] = c.name);
+  const all = window.MX_PRODUCTS.slice();
+  const half = Math.ceil(all.length / 2);
+  const groups = [all.slice(0, half), all.slice(half)];
+  const item = p => `<a class="ritem${p.photo ? ' photo' : ''}" href="produto.html?p=${p.id}"><div class="ri"><img src="assets/img/p/${p.img}" alt="${p.name}" loading="lazy" decoding="async"></div><div class="rt"><small>${cats[p.cat] || ''}</small><b>${p.name}</b></div></a>`;
+  rails.forEach((r, k) => {
+    const g = groups[k] || all;
+    const html = g.map(item).join('');
+    r.querySelector('.rail-track').innerHTML = html + html.replace(/<a /g, '<a aria-hidden="true" tabindex="-1" ');
+  });
+})();
